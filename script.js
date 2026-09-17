@@ -160,3 +160,5 @@ document.getElementById("resetScore").addEventListener("click", resetScore);
 document.getElementById("dictSize").textContent = dictionary.length;
 refreshEE();
 refreshRU();
+
+/* 13. test */
