@@ -145,7 +145,17 @@ document.getElementById("checkRU").addEventListener("click", checkRU);
 document.getElementById("refreshEE").addEventListener("click", refreshEE);
 document.getElementById("refreshRU").addEventListener("click", refreshRU);
 
-/* 13. KOMMENTAAR: Rakenduse käivitus (init) — täidab sõnavara mahu välja
+/* 13. KOMMENTAAR: Skoori lähtestamise funktsioon — annab kasutajale
+   võimaluse alustada harjutamist puhtalt lehte uuesti laadimata,
+   nullides mõlemad loendurid korraga (nagu teenuse "reset" käsklus). */
+function resetScore() {
+  correctCount = 0;
+  wrongCount = 0;
+  updateScore();
+}
+document.getElementById("resetScore").addEventListener("click", resetScore);
+
+/* 14. KOMMENTAAR: Rakenduse käivitus (init) — täidab sõnavara mahu välja
    ja laeb kummalegi sõlmele esimese juhusliku sõna kohe lehe avanemisel. */
 document.getElementById("dictSize").textContent = dictionary.length;
 refreshEE();
