@@ -52,6 +52,14 @@ header p{color:var(--muted); max-width:620px; margin:0; line-height:1.5; font-si
 .status-item{font-family:var(--mono); font-size:13px; color:var(--muted);}
 .status-item b{color:var(--text); font-size:16px; display:block; margin-top:2px;}
 
+.btn-reset{
+  margin-left:auto; align-self:center;
+  background:transparent; color:var(--warn); border:1px solid var(--line);
+  padding:8px 14px; font-size:13px; border-radius:8px;
+  cursor:pointer; font-family:var(--font);
+}
+.btn-reset:hover{border-color:var(--warn);}
+
 /* Kaks veergu = kaks "sõlme" (node), sünkroonis vastandsuunas */
 .board{display:grid; grid-template-columns:1fr 1fr; gap:20px;}
 
