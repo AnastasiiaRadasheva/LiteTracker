@@ -96,7 +96,7 @@ button{
 }
 
 button:active{transform:scale(0.97);}
-.btn-check{background:var(--accent); color:#08221f;}
+.btn-check{background:var(--accent); color:blue;}
 .btn-refresh{background:var(--panel-2); color:var(--text); border:1px solid var(--line); width:100%;}
 .btn-check:hover, .btn-refresh:hover{opacity:0.88;}
 
