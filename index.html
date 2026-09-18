@@ -12,22 +12,14 @@
   <header>
     <div class="eyebrow-row"><span class="node-dot"></span> LiteTracker · Random sõnad · client node</div>
     <h1>Sõnavara kontroll: hajusrakenduste terminid</h1>
-    <p>Kaks sünkroniseeritud sõlme (node) kontrollivad tõlget vastandsuundades — vasakul eesti → vene, paremal vene → eesti. Vali vastus ja kontrolli, kas päring (request) vastab õigele väärtusele (response).</p>
   </header>
-
-  <div class="status-bar">
-    <div class="status-item">Õigeid kokku <b id="scoreCorrect">0</b></div>
-    <div class="status-item">Valesid kokku <b id="scoreWrong">0</b></div>
-    <div class="status-item">Sõnavara maht <b id="dictSize">0</b></div>
-    <button class="btn-reset" id="resetScore">Lähtesta skoor ⟲</button>
-  </div>
 
   <div class="board">
 
-    <!-- Sõlm A: EE -> RU -->
+    <!-- Osa A: EE -> RU -->
     <div class="node">
       <div class="node-head">
-        <h2>Sõlm A</h2>
+        <h2>Osa A</h2>
         <span class="direction">EE → RU</span>
       </div>
       <div class="word-display" id="wordEE">…</div>
@@ -39,10 +31,10 @@
       <button class="btn-refresh" id="refreshEE">Uus sõna ↻</button>
     </div>
 
-    <!-- Sõlm B: RU -> EE -->
+    <!-- Osa B: RU -> EE -->
     <div class="node">
       <div class="node-head">
-        <h2>Sõlm B</h2>
+        <h2>Osa B</h2>
         <span class="direction">RU → EE</span>
       </div>
       <div class="word-display" id="wordRU">…</div>
